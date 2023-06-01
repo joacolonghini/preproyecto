@@ -180,7 +180,7 @@
     background-image: url(../img/img.jpg);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
 .contenedor {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 200px);
@@ -193,10 +193,6 @@
     "img7 img8";
 }
 }
-
-
-
-
 .logo {
     width: 35px;
     height: auto;
@@ -499,8 +495,9 @@ footer {
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .comment-box {
-    width: 90%;
-    margin: 0 auto;
+    width: 40%;
+    margin-left: 80px;
+    top: 400px;
     }
 }
 
@@ -518,16 +515,6 @@ footer {
     margin: 0 auto;
     }
 } 
-
-@media screen and (min-width: 470px) and (max-width: 767px) {
-.comment-box {
-    top: calc(70% + 20px);
-    width: 300px;
-    margin-left: 100px;
-
-}
-}
-
 
 
 @media screen and (min-width: 1024px) {
